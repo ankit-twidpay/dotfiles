@@ -27,6 +27,7 @@
   };
   nix-homebrew = {
     enable = true;
+    autoMigrate = true;  
     inherit user;
   };
   homebrew = {
@@ -40,6 +41,12 @@
     casks = [
       "wezterm"
       "claude-code"
+      "kiro-cli"
+      "bitwarden"
+      "tableplus"
+      "docker-desktop"
+      "slack"
+      "github"
     ];
   };
 }
